@@ -1,0 +1,69 @@
+.launch-inner-glow {
+  background: radial-gradient(
+    60% 50% at 50% 55%,
+    rgba(249, 115, 22, 0.14) 0%,
+    transparent 70%
+  );
+}
+
+.launch-flash {
+  background: radial-gradient(
+    circle at 50% 50%,
+    #fde68a 0%,
+    transparent 62%
+  );
+}
+
+.launch-ember {
+  left: var(--ember-left);
+  width: var(--ember-size);
+  height: var(--ember-size);
+  background: radial-gradient(circle, #fef3c7, #f97316 70%);
+  box-shadow: 0 0 calc(var(--ember-size) * 1.8) #fdba74;
+}
+
+.launch-petal {
+  left: var(--petal-left);
+  width: var(--petal-width);
+  height: var(--petal-height);
+  background: var(--petal-color);
+  border-radius: 60% 10% 60% 10%;
+}
+
+.launch-gate-left {
+  background: linear-gradient(115deg, #1e3a8a 0%, #12235c 55%, #0b1330 100%);
+  box-shadow: inset -50px 0 90px rgba(0, 0, 0, 0.5);
+}
+
+.launch-gate-right {
+  background: linear-gradient(245deg, #1e3a8a 0%, #12235c 55%, #0b1330 100%);
+  box-shadow: inset 50px 0 90px rgba(0, 0, 0, 0.5);
+}
+
+.launch-gate-texture-left {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(253, 230, 138, 0.12) 0 2px,
+    transparent 2px 26px
+  );
+}
+
+.launch-gate-texture-right {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(253, 230, 138, 0.12) 0 2px,
+    transparent 2px 26px
+  );
+}
+
+.launch-gate-edge-left {
+  background: linear-gradient(90deg, transparent, rgba(253, 230, 138, 0.18));
+}
+
+.launch-gate-edge-right {
+  background: linear-gradient(270deg, transparent, rgba(253, 230, 138, 0.18));
+}
+
+.launch-emblem-glow {
+  box-shadow: 0 0 40px 10px rgba(253, 186, 116, 0.35);
+}

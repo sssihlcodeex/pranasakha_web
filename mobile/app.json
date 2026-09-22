@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "PRANASAKHA",
+    "slug": "pranasakha",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "android": { "package": "org.pranasakha.app" },
+    "ios": { "bundleIdentifier": "org.pranasakha.app" },
+    "plugins": [
+      ["expo-camera", { "cameraPermission": "Allow PRANASAKHA to scan secure Seva passes.", "barcodeScannerEnabled": true }],
+      ["expo-secure-store", { "configureAndroidBackup": true }]
+    ]
+  }
+}

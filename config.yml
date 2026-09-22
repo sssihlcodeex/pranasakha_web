@@ -1,0 +1,14 @@
+tunnel: c1402fdf-a0bb-41fc-88c4-09e130bf6598
+credentials-file: C:\Users\admin\.cloudflared\c1402fdf-a0bb-41fc-88c4-09e130bf6598.json
+
+ingress:
+  # 1. Route the main domain to your Vite frontend
+  - hostname: pranasakha.codeex.space
+    service: http://localhost:5173
+  
+  # 2. Route an "api" domain to your backend database
+  - hostname: api-pranasakha.codeex.space
+    service: http://localhost:4000
+
+  # 3. Cloudflare requires this catch-all error at the very end
+  - service: http_status:404

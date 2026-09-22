@@ -1,0 +1,7 @@
+.status-badge { display: inline-flex; align-items: center; gap: 6px; min-height: 25px; padding: 0 9px; border-radius: 999px; font-size: 10px; font-weight: 800; white-space: nowrap; }
+.status-badge::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; opacity: .8; }
+.status-badge--pending { color: #b45309; background: #fff7ed; border: 1px solid #fed7aa; }
+.status-badge--approved { color: #047857; background: #ecfdf5; border: 1px solid #a7f3d0; }
+.status-badge--info { color: #0369a1; background: #eff6ff; border: 1px solid #bae6fd; }
+.status-badge--declined { color: #b91c1c; background: #fef2f2; border: 1px solid #fecaca; }
+.status-badge--neutral { color: #475569; background: #f8fafc; border: 1px solid #e2e8f0; }

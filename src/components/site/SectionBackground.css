@@ -1,0 +1,35 @@
+.ps-blob {
+  width: var(--blob-size);
+  height: var(--blob-size);
+  background: radial-gradient(circle, var(--blob-color) 0%, transparent 70%);
+}
+
+.ps-blob-duration {
+  animation-duration: var(--blob-duration);
+}
+
+.ps-float-icon {
+  width: var(--icon-size);
+  height: var(--icon-size);
+}
+
+.ps-float-icon-delay {
+  animation-delay: var(--icon-delay);
+}
+
+.ps-dash-delay {
+  animation-delay: 1.5s;
+}
+
+.ps-drift {
+  animation: ps-drift-x 7s linear infinite;
+  animation-delay: var(--drift-delay);
+}
+
+.ps-radar-ring {
+  width: var(--ring-size);
+  height: var(--ring-size);
+  margin-left: calc(var(--ring-size) / -2);
+  margin-top: calc(var(--ring-size) / -2);
+  animation-delay: var(--ring-delay);
+}

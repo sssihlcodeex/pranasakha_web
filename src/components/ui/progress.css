@@ -1,0 +1,3 @@
+.progress-indicator {
+  transform: translateX(calc(-1 * var(--progress-offset, 0%)));
+}

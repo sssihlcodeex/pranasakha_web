@@ -1,0 +1,1 @@
+ALTER TABLE users ADD COLUMN IF NOT EXISTS provider_profile JSONB NOT NULL DEFAULT '{}'::jsonb;

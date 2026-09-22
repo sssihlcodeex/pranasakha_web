@@ -1,0 +1,14 @@
+{
+  "name": "PRANASAKHA — Friend of Life",
+  "short_name": "PRANASAKHA",
+  "description": "Volunteer doctor onboarding and Seva coordination for Sri Sathya Sai Medical Institutions.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f6faf8",
+  "theme_color": "#17856c",
+  "icons": [
+    { "src": "/brand/logo-mark.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
